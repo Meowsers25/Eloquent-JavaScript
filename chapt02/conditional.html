@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let theNumber = Number(prompt('Please enter a number'))
+        if (!Number.isNaN(theNumber)) {
+            console.log(`Your number is the square root of ${theNumber * theNumber}.`)
+        }
+
+        if (1 + 1 == 2) console.log(`It's true`)
+        console.log(3 + 3 == 6)
+
+        let secondNumber = Number(prompt('Enter another number..'))
+        if (!Number.isNaN(secondNumber)) {
+            console.log(`Your number squared is ${secondNumber * secondNumber}`)
+        } else {
+            console.log(`${secondNumber} is not a number, dummy.....`)
+        }
+    </script>
+</body>
+</html>
