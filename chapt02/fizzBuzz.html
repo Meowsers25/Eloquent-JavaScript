@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>fizzBuzz</title>
+</head>
+<body>
+  <script>
+    for (let theFizz = 1; theFizz <= 100; theFizz++){
+      if (theFizz % 3 == 0 && theFizz % 5 == 0) {
+        console.log('fizzBuzz')
+      } else if (theFizz % 3 == 0) {
+        console.log('fizz')
+      } else if (theFizz % 5 == 0) {
+        console.log('buzz')
+      } else {
+        console.log(theFizz)
+      }
+    }
+  </script>
+</body>
+</html>
