@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chessboard</title>
+</head>
+<body>
+  <script>
+    let size = Number(prompt('Enter board size:'))
+    let board = ' '
+    for (let i = 0; i < size; i++){
+      for (let j = 0; j < size; j++){
+        if ((i + j) % 2 == 0){
+          board += ' '
+        } else {
+          board += '#'
+        }
+      }
+      board += '\n'
+    }
+    console.log(board)
+  </script>
+</body>
+</html>
